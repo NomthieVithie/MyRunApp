@@ -1,0 +1,63 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <EditText
+        android:id="@+id/dateOfRun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:hint="Enter the date here"
+        />
+
+    <EditText
+        android:id="@+id/morningRun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Morning Run(km's)"
+        android:textSize="22sp"
+        />
+
+    <EditText
+        android:id="@+id/afternoonRun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter AfternoonRun(km's)"
+        android:textSize="22sp"
+        />
+
+    <EditText
+        android:id="@+id/enterNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Notes for Run"
+        android:textSize="22sp"
+        />
+
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Data"
+        android:backgroundTint="@color/orange"
+        />
+
+    <Button android:id="@+id/clearbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear Data"
+        android:backgroundTint="@color/orange"
+        />
+    <Button
+        android:id="@+id/showData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Display Data"
+        android:backgroundTint="@color/orange"
+        />
+
+</LinearLayout>
